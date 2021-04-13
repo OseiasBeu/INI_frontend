@@ -1,0 +1,16 @@
+{
+  "name": "ini_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oseias beu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "require": "^2.4.20",
+    "type": "module"
+  }
+}

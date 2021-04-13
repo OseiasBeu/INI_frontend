@@ -1,0 +1,7 @@
+div{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+aside{
+    border: 5px solid red;
+}
