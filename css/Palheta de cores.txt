@@ -1,0 +1,7 @@
+1-#d9d7d2 -> Banner
+2-#cfcccc ->O instituto
+3-#ccb6b6 -> Cursos
+4-#ccb6b6 -> Seminários
+5-#cfcccc -> Editora
+6-#cfcccc -> Artigos
+7-#6b6b6b -> Footer
