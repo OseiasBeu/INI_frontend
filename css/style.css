@@ -8,7 +8,7 @@ body{
     border: 3px dotted green;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('layout_siteINI_2021.png');
+    /* background-image: url('layout_siteINI_2021.png'); */
 
 }
 /* PRIMERIA SESSÃO DO SCRIPT: banner */
@@ -33,7 +33,8 @@ body{
     width: 65%;
     border: 3px solid red;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;  
+    /* flex-wrap: wrap;  */
     height: 30vh;  
 }
 
