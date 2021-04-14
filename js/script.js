@@ -35,7 +35,7 @@ axios.get(url+'/tarefas')
       console.log(value)
       imgEvento.src ='https://www.plataformamedia.com/wp-content/uploads/2020/06/imagem-preta.jpg' //value['imagem'] //Futura alteração
       dataEvento.innerHTML =value['data'] //Inserindo a data do evento
-      categoria.innerHTML = value['categoria_id'] //Inserindo a categoria do evento
+      categoria.innerHTML = value['categoria'] //Inserindo a categoria do evento
       descricao.innerHTML = value['descricao'] //Inserindo a descrição do evento
       aside.appendChild(imgEvento);
       aside.appendChild(dataEvento);
