@@ -117,7 +117,8 @@ background-color:#ccb6b6;
 
 
 #agenda{
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,11 +133,30 @@ background-color:#ccb6b6;
     align-items: center;
 }
 #agenda .evento{
-    display: flex;
+    /* display: flex; */
+    width: 30%;
     /* border: 5px solid red; */
+    margin-bottom: 3%;
     flex-direction: column;
     
 } 
+
+h3#categoria{
+    display: flex;
+    width: 75%;
+}
+
+#organizador{
+    display: flex;
+    justify-content: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+#organizador #tituloArtigo{
+    /* border:2px solid red; */
+    height: 5vh;
+}
 
 #agenda #dataEvento{
 
@@ -147,6 +167,11 @@ background-color:#ccb6b6;
 }
 
 #agenda #descricao{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
