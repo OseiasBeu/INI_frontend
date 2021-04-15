@@ -38,7 +38,8 @@ body{
     height: 30vh;  
 }
 
-#menu span{
+/* #menu  */
+span{
     color: red;
 }
 
@@ -156,14 +157,73 @@ background-color:#ccb6b6;
 
 #artigos{
     height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
     /* border: 5px solid red; */
     background-color: #cfcccc;
+}
 
+#artigos #tituloArtigo{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height: 15%;
+}
+
+
+#artigos div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    /* border: 5px solid red; */
 
 }
 
-#footer{
+footer{
     height: 49vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* border: 5px solid red; */
     background-color: #6b6b6b;
+}
+
+footer #footerCima{
+    /* border: 5px solid red; */
+    padding-top: 1%;
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+footer #footerCima #icon{
+    width:5%;
+    /* height:10%; */
+}
+footer #footerMeio{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    height: 80%;
+}
+
+footer #footerMeio img{
+    width:150px;
+    height:150px;
+}
+
+footer #footerBaixo{
+    /* border: 5px solid red; */
+    height:10%;
+    color:white
 }
