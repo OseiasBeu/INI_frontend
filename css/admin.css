@@ -1,0 +1,27 @@
+form{
+    border: 1px solid black;
+}
+
+
+#agenda{
+    display: block;
+}
+.evento{
+    display: flex;
+    border: 1px solid black;
+}
+.nomeColuna{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+}
+
+ul{
+    border: 1px solid black;
+}
+li{
+    border:2px solid black;
+    list-style-type: none;
+    width:33%;
+}

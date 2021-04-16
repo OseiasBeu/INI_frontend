@@ -18,30 +18,41 @@ axios.get(url+'/tarefas')
       aside.classList.add('evento')
       
       var linha = document.createElement('div');
-      linha.setAttribute("id","linha-horizontal")
+      // linha.setAttribute("id","linha-horizontal")
       
       var imgEvento = document.createElement('img');
-      imgEvento.setAttribute("id","imagemEvento")
+      imgEvento.setAttribute("class","li")
 
-      var dataEvento = document.createElement('h4');
-      dataEvento.setAttribute("id","dataEvento")
+      var dataEvento = document.createElement('li');
+      dataEvento.setAttribute("class","li")
       
-      var categoria = document.createElement('h3')
-      categoria.setAttribute("id","categoria")
+      var categoria = document.createElement('li')
+      categoria.setAttribute("class","li")
 
-      var descricao = document.createElement('span');
-      descricao.setAttribute("id","descricao")
+      var descricao = document.createElement('li');
+      descricao.setAttribute("class","li")
+
+      var status = document.createElement('li');
+      status.setAttribute("class","li")
+
+      var id = document.createElement('li');
+      id.setAttribute("class","li")
+      // descricao.setAttribute("id","descricao")
       
       console.log(value)
       imgEvento.src ='https://www.plataformamedia.com/wp-content/uploads/2020/06/imagem-preta.jpg' //value['imagem'] //Futura alteração
+      id.innerHTML = '0'//value['id'] //Inserindo a data do evento
       dataEvento.innerHTML =value['data'] //Inserindo a data do evento
       categoria.innerHTML = value['categoria'] //Inserindo a categoria do evento
       descricao.innerHTML = value['descricao'] //Inserindo a descrição do evento
-      aside.appendChild(imgEvento);
+      status.innerHTML = 'False' //value['realizado'] //Inserindo a descrição do evento
+    //   aside.appendChild(imgEvento);
+      aside.appendChild(id);
       aside.appendChild(dataEvento);
       aside.appendChild(linha);
       aside.appendChild(categoria);
       aside.appendChild(descricao);
+      aside.appendChild(status)
       div.appendChild(aside);
     }
   })
@@ -54,5 +65,5 @@ axios.get(url+'/tarefas')
   });
 }
 
-body.onload = exibirTarefas;
-// exibir.onclick = exibirTarefas;
+// body.onload = exibirTarefas;
+exibir.onclick = exibirTarefas;
