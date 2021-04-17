@@ -21,8 +21,95 @@
         display: none;
         justify-content: center;
     }
-  
-}
+ 
+    .contornoInstituto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .instituto .contornoInstituto .institutoTexto {
+        /* border: 2px dashed rgb(75, 179, 24); */
+        width: 100;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instituto .contornoInstituto .institutoTexto .sobreOInstituto {
+        /* border: 1px dotted green; */
+        width: 100%;
+        text-align: center;
+    }
+    .instituto .contornoInstituto .institutoTexto {
+        /* border: 2px dashed rgb(75, 179, 24); */
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    #organizador {
+        display: flex;
+    }
+    #agenda #eventos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #eventos{
+        flex-direction: column;
+        width: 100%;
+    }
+    #agenda .evento {
+        display: flex;
+        width: 100%;
+        margin-bottom: 3%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agenda #descricao{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    #descricao {
+        width: 100%;
+        text-align: center;
+    }
+    h3#categoria {
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer{
+        display:flex;
+        height: 40vh;
+    }
+
+    footer #footerMeio img {
+        width: 80px;
+        height: 80px;
+    }
+    footer #footerMeio {
+        /* border: 5px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 40%;
+    }
+
+    footer #footerCima #icon {
+        width: 10%;
+    }
+    footer #footerBaixo {
+        /* height: 30%; */
+        width: 90%;
+        color: white;
+    }
 
 /* 
  Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
