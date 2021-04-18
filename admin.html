@@ -13,29 +13,48 @@
     <title>INI ADM</title>
 </head>
 <body>
-    <h3> - Ainda falta criar a nova rota de lsitagem de produtos</h3>
-    <h3> - Criar uma rota para exibir categorias</h3>
-    <h3> - Trazer o ID e a status de realização do evento</h3>
 
-    <form class="inserirEvento">
-        <h4>Formulário de inserção</h4>
-        <input type="text" placeholder="descricao">
-        <input type="text" placeholder="data">
-        <input type="text" placeholder="realizado">
-        <input type="text" placeholder="categoria_id">
-        <button id='inserir'>Inserir</button>
-    </form>
-    <button id='BTN'>Exibir</button>
+
+    <div class="inserirEvento">
+        <h4>Formulário de inserção de eventos</h4>
+        <input id='input_descricao' type="text" placeholder="descricao">
+        <input id='input_data' type="text" placeholder="data">
+        <input id='input_realizado' type="text" placeholder="realizado">
+        <input id='input_categoria' type="text" placeholder="categoria_id">
+        <button id='inserir_eventos'>Inserir eventos</button>
+    </div>
+
+    <div class="inserirEvento">
+        <h4>Formulário de inserção de categorias</h4>
+        <input id='input_descricao_cat' type="text" placeholder="descricao">
+        <button id='inserir_categorias'>Inserir categorias</button>
+    </div>
+
+
+    <button id='BTN'>Exibir Todos os eventos</button>
     <section id="agenda">
         <aside id='organizador'>
             <span id="tituloArtigo">Todos os eventos:</span>
             <div id='eventos'>
                     <aside class="evento">
                         <li class="nomeColuna">id</li>
-                        <li class="nomeColuna">Data</li>
+                        <li class="nomeColuna">Data do evento</li>
                         <li class="nomeColuna">Titulo</li>
                         <li class="nomeColuna">Descrição</li>
                         <li class="nomeColuna">Realizado</li>
+                    </aside>
+            </div>
+        </aside>
+    </section>
+
+    <button id='BTN_CAT'>Exibir todas as categorias</button>
+    <section id="categorias">
+        <aside id='organizador_cat'>
+            <span id="tituloArtigo">Todas as categorias:</span>
+            <div id='categorias'>
+                    <aside class="categoria">
+                        <li class="nomeColuna">id</li>
+                        <li class="nomeColuna">Descrição</li>
                     </aside>
             </div>
         </aside>
