@@ -53,7 +53,14 @@ axios.get(url+'/tarefas')
       // console.log(value)
       imgEvento.src ='https://www.plataformamedia.com/wp-content/uploads/2020/06/imagem-preta.jpg' //value['imagem'] //Futura alteração
       id.innerHTML = value['id'] //Inserindo a data do evento
-      dataEvento.innerHTML =value['data'] //Inserindo a data do evento
+      // dataC = moment(value['data'], 'DD/MM/YYYY HH:mm:ss', true).format('YYYY-MM-DD HH:mm:ss')
+      // var data = new Date(value['data']);
+      // data.format("YYYY-MM-DD")
+      var data = new Date(value['data']);
+
+      dataEvento.innerHTML = data.toLocaleDateString()
+      // value['data'].toUTCString()
+      // new Intl.DateTimeFormat('pt-br').format(value['data']) //Inserindo a data do evento
       categoria.innerHTML = value['categoria'] //Inserindo a categoria do evento
       descricao.innerHTML = value['descricao'] //Inserindo a descrição do evento
       status.innerHTML = 'False' //value['realizado'] //Inserindo a descrição do evento
