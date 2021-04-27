@@ -19,7 +19,7 @@ let BTNInserirCategorias = document.querySelector('#inserir_categorias');
 
 function exibirTarefas(){
   // div.clear();
-axios.get(url+'/tarefas')
+axios.get(url+'/tarefas/todas')
   .then(function (response) {
     // handle success
     for(var key in response.data){
@@ -63,7 +63,7 @@ axios.get(url+'/tarefas')
       // new Intl.DateTimeFormat('pt-br').format(value['data']) //Inserindo a data do evento
       categoria.innerHTML = value['categoria'] //Inserindo a categoria do evento
       descricao.innerHTML = value['descricao'] //Inserindo a descrição do evento
-      status.innerHTML = 'False' //value['realizado'] //Inserindo a descrição do evento
+      status.innerHTML = value['realizado'] //Inserindo a descrição do evento
     //   aside.appendChild(imgEvento);
       aside.appendChild(id);
       aside.appendChild(dataEvento);
