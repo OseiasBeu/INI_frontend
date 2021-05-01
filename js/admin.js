@@ -18,6 +18,7 @@ let input_Categoria = document.querySelector('#input_descricao_cat');
 let BTNInserirCategorias = document.querySelector('#inserir_categorias');
 
 function exibirTarefas(){
+  // document.location.reload();
   // div.clear();
 axios.get(url+'/tarefas/todas')
   .then(function (response) {

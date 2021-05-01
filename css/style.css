@@ -115,7 +115,7 @@ background-color:#ccb6b6;
     background-color:#cfcccc;
 }
 
-
+/* AGENDA ------------------------------- */
 
 #agenda{
     /* height: 100vh; */
@@ -156,17 +156,12 @@ h3#categoria{
 
 #organizador #tituloArtigo{
     /* border:2px solid red; */
-    height: 5vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* height: 5vh; */
 }
 
-#agenda #dataEvento{
-
-}
-
-#agenda #categoria{
-
-}
-
+/* AGENDA  fim------------------------------- */
 #agenda #descricao{
     display: flex;
     flex-wrap: wrap;
@@ -181,8 +176,9 @@ h3#categoria{
     height: 200px;
 }
 
+
 #artigos{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -195,9 +191,11 @@ h3#categoria{
     /* border: 5px solid red; */
     display: flex;
     justify-content:center;
-    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* align-items: center;
     width:100%;
-    height: 15%;
+    height: 15%; */
 }
 
 
@@ -206,10 +204,46 @@ h3#categoria{
     justify-content:center;
     align-items: center;
     width:100%;
-    height:100%;
+    /* height:100%; */
     /* border: 5px solid red; */
 
 }
+
+#artigos #imagemEvento{
+    width: 200px;
+    height: 200px;
+    margin-right: 1%;
+}
+
+#artigos #eventosArtigos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#eventosArtigos .evento{
+    /* border: 2px solid blue; */
+    width: 40%;
+    display: flex;
+    margin:1%;
+}
+#eventosArtigos #containner{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: baseline;
+}
+
+#linkArtigo{
+    text-decoration: none;
+    color: black;
+}
+
+#eventosArtigos #linha-horizontal-artigo {
+    width: 50%;
+    border: 0.4px solid red;
+}
+
+/* --------------------------------- */
 
 footer{
     height: 49vh;
