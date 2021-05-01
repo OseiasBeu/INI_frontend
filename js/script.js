@@ -35,7 +35,7 @@ axios.get(url+'/tarefas')
       descricao.setAttribute("id","descricao")
       
       // console.log(value)
-      imgEvento.src ='https://www.plataformamedia.com/wp-content/uploads/2020/06/imagem-preta.jpg' //value['imagem'] //Futura alteração
+      imgEvento.src = value['linkimagem'] //Futura alteração 'https://www.plataformamedia.com/wp-content/uploads/2020/06/imagem-preta.jpg'
       dataEvento.innerHTML =value['data'] //Inserindo a data do evento
       categoria.innerHTML = value['categoria'] //Inserindo a categoria do evento
       descricao.innerHTML = value['descricao'] //Inserindo a descrição do evento
