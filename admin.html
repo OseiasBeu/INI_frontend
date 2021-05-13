@@ -21,7 +21,18 @@
         <input id='input_data' type="text" placeholder="data">
         <input id='input_realizado' type="text" placeholder="realizado">
         <input id='input_categoria' type="text" placeholder="categoria_id">
-        <button id='inserir_eventos'>Inserir eventos</button>
+        <input id='input_linkimagem' type="text" placeholder="linkimagem">
+        <button id='inserir_eventos'>Inserir evento</button>
+    </div>
+
+    <div class="inserirEvento">
+        <h4>Formulário de alteração de eventos</h4>
+        <input id='input_idEvento' type="text" placeholder="evento id">
+        <input id='input_descricaoAlteracao' type="text" placeholder="descricao">
+        <input id='input_dataAlteracao' type="text" placeholder="data">
+        <input id='input_realizadoAlteracao' type="text" placeholder="realizado">
+        <input id='input_categoriaAlteracao' type="text" placeholder="categoria_id">
+        <button id='alterar_eventos'>Alterar evento</button>
     </div>
 
     <div class="inserirEvento">
@@ -31,7 +42,7 @@
     </div>
 
 
-    <button id='BTN'>Exibir Todos os eventos</button>
+    
     <section id="agenda">
         <aside id='organizador'>
             <span id="tituloArtigo">Todos os eventos:</span>
@@ -42,12 +53,14 @@
                         <li class="nomeColuna">Titulo</li>
                         <li class="nomeColuna">Descrição</li>
                         <li class="nomeColuna">Realizado</li>
+                        <li class="nomeColuna">imagem link</li>
                     </aside>
             </div>
         </aside>
     </section>
+    <button id='BTN'>Exibir Todos os eventos</button>
 
-    <button id='BTN_CAT'>Exibir todas as categorias</button>
+    
     <section id="categorias">
         <aside id='organizador_cat'>
             <span id="tituloArtigo">Todas as categorias:</span>
@@ -59,5 +72,6 @@
             </div>
         </aside>
     </section>
+    <button id='BTN_CAT'>Exibir todas as categorias</button>
 </body>
 </html>
