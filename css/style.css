@@ -24,6 +24,15 @@ body{
     height: 67vh;
 }
 
+#tituloInstituto{
+    background-image: url("../img/logo_NeuzaItioka_preto.webp");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 70% 90%;
+    /* border: 2px solid black; */
+    width:35%;
+    height: 25%;
+}
 /* SEGUNDA SESSÃO DO SCRIPT: menu */
 #menu{
     display: flex;
@@ -96,6 +105,9 @@ background-color:#ccb6b6;
 }
 
 #slogan{
+    background-image: url('../img/slogan.PNG');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
     /* background-color: white; */
     height: 53vh;
     /* border: 3px solid red; */
