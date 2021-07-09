@@ -16,7 +16,7 @@
         justify-content: center;
     }
     #tituloInstituto{
-        background-image: url("../img/logo_NeuzaItioka_preto.webp");
+        background-image: url("https://raw.githubusercontent.com/OseiasBeu/INI_frontend/master/img/logo_NeuzaItioka_preto.webp");
         background-repeat: no-repeat, repeat;
         background-position: center;
         background-size: 70% 90%;
