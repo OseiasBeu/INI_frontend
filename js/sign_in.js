@@ -28,6 +28,4 @@ function login(){
     }); 
   }
 
-
-
 BTNlogin.onclick = login;
